@@ -7,15 +7,15 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉 Put Your Session Id 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "Put Your Session Id 🐣",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=hoJRUQjA#xsb3wAsMwHtxYsbdpwZDixzH_VNPhL7_VpG9n86HJMQ",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐘𝐨𝐮𝐫 𝐒𝐭𝐚𝐭𝐮𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜𝐥𝐲 𝐒𝐞𝐞𝐧𝐬 𝐁𝐲 𝐋𝐚𝐤𝐚-𝐌𝐝 🧚‍♀️🐣💗",
 
 
 //=================================================
 //මෙවා defult එවා කැමතිනම් false and true විතරක් වෙනස් කරගන්න..✨
 
-PREFIX: process.env.PREFIX || '.' ,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94781121579' : process.env.OWNER_NUMBER,
+PREFIX: process.env.PREFIX || '>' ,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '916290625264' : process.env.OWNER_NUMBER,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
